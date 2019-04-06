@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		19E0CD3C225817DF0070534D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E0CD3B225817DF0070534D /* Color.swift */; };
+		19E0CD3E22581D220070534D /* colorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E0CD3D22581D220070534D /* colorDetailViewController.swift */; };
 		19FA79E82258116900A69349 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA79E72258116900A69349 /* AppDelegate.swift */; };
 		19FA79ED2258116900A69349 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19FA79EB2258116900A69349 /* Main.storyboard */; };
 		19FA79F02258116900A69349 /* ColorSegue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19FA79EE2258116900A69349 /* ColorSegue.xcdatamodeld */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		19E0CD3B225817DF0070534D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		19E0CD3D22581D220070534D /* colorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorDetailViewController.swift; sourceTree = "<group>"; };
 		19FA79E42258116900A69349 /* ColorSegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorSegue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FA79E72258116900A69349 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19FA79EC2258116900A69349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				19FA79EE2258116900A69349 /* ColorSegue.xcdatamodeld */,
 				19FA7A0A2258124400A69349 /* ColorsViewController.swift */,
 				19E0CD3B225817DF0070534D /* Color.swift */,
+				19E0CD3D22581D220070534D /* colorDetailViewController.swift */,
 			);
 			path = ColorSegue;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19FA79F02258116900A69349 /* ColorSegue.xcdatamodeld in Sources */,
+				19E0CD3E22581D220070534D /* colorDetailViewController.swift in Sources */,
 				19E0CD3C225817DF0070534D /* Color.swift in Sources */,
 				19FA7A0B2258124400A69349 /* ColorsViewController.swift in Sources */,
 				19FA79E82258116900A69349 /* AppDelegate.swift in Sources */,
